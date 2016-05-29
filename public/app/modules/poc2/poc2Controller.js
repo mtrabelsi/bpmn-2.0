@@ -3,7 +3,7 @@ angular
     .controller('Poc2Controller', poc2Controller);
 
 function poc2Controller(CanvasGraphFactory, eBook, CanvasBarChartFactory, MAX_VIEW_PORT, GRAPH_CONFIG, $scope, $interval, $http) {
-    $scope.metadata = {
+   /* $scope.metadata = {
         startDate: new Date(),
         nbrOfSamples: 0,
         nbrOfTotalDistinct: 0
@@ -80,5 +80,5 @@ function poc2Controller(CanvasGraphFactory, eBook, CanvasBarChartFactory, MAX_VI
         var blob2 = new Blob([$scope.generatedWords.fromDS2], { type: "text/plain;charset=utf-8" });
         saveAs(blob1, "DS1.txt");
         saveAs(blob2, "DS2.txt");
-    }
+    }*/
 }

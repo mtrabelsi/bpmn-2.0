@@ -3,7 +3,7 @@ angular
     .controller('Poc1Controller', poc1Controller);
 
 function poc1Controller(CanvasGraphFactory, CanvasBarChartFactory, $scope, $http, $interval, $window, MAX_VIEW_PORT, GRAPH_CONFIG) {
-    $scope.metadata = {
+   /* $scope.metadata = {
         startDate: new Date(),
         nbrOfSamples: 0,
         nbrOfTotalColisions: 0
@@ -68,6 +68,6 @@ function poc1Controller(CanvasGraphFactory, CanvasBarChartFactory, $scope, $http
 
     $scope.printReport = function() {
         $window.print();
-    };
+    };*/
 
 }
